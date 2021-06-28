@@ -1,0 +1,139 @@
+body {
+  height: 100%;
+  overflow: hidden;
+  width: 100% !important;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.backRight {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.backLeft {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -999;
+}
+
+#slideBox {
+  width: 50%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 50%;
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.topLayer {
+  width: 200%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  left: -100%;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background: #2C3034;
+  left: 0;
+  position: absolute;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: #212A51;
+  right: 0;
+  position: absolute;
+  overflow-y: auto;
+}
+
+.content {
+  width: 65%;
+  margin: 0 auto;
+  top: 10%;
+  position: absolute;
+  left: 15%;
+}
+
+.content h2 {
+  font-weight: 300;
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.off {
+  background: none;
+  color: #03A9F4;
+  box-shadow: none;
+}
+
+.right .off:hover {
+  background: #36D4F7;
+  color: #36D4F7;
+  box-shadow: none;
+}
+.left .off:hover {
+  box-shadow: none;
+  color: #03A9F4;
+  background: #363A3D;
+}
+
+.form-group {
+    margin-bottom: 1rem !important;
+}
+
+.danger-msg {
+  font-weight: bold;
+  color: #DC3545;
+  border-color: #DC3545;
+}
+
+.danger-msg .card-body{
+  padding: 10px !important;
+}
+
+.sugestion {
+  margin-top: 100px;
+}
+
+input {
+    margin-right: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #slideBox {
+      width: 100%;
+      max-height: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin-left: 0%;
+      position: absolute;
+      box-shadow: 0 !important;
+  }
+
+  .content {
+    top: 10%;
+    left: 10%;
+  }
+}
+
