@@ -2,7 +2,7 @@
 
 # Steps
 
-django_env\Scripts\activate
+pip -r install requirements.txt
 
 # in financial_chat (runs in localhost:8000)
 python manage.py runserver
