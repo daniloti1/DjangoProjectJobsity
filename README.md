@@ -12,7 +12,7 @@ python manage.py runserver
 
 # users
 user1
-	username:adimn
+	username:admin
 	password:admin
 
 user2
